@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+#menu{
+    width: 100%;
+}
+#menu ul{
+    list-style-type: none;
+    text-align: center;
+    background-color: crimson;
+}
+#menu ul li{
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    
+}
+#menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    padding: 20px 0 20px;
+}
+#menu ul li a:hover{
+    background-color: chocolate;
+    width: 100px;
+    color: whitesmoke;
+}
+#menu2{
+    display: none;
+    background-color: chocolate;
+    width: 100px;
+    color: whitesmoke;
+    position: absolute;
+
+}
+#menu ul li:hover #menu2{
+    display: block;
+    
+
+}
